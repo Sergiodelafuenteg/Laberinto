@@ -1,0 +1,41 @@
+@font-face {
+  font-family: woods;
+  src: url("woods.ttf");
+
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 60px;
+  font-family: "woods";
+  color: green;
+  font-weight: normal;
+  margin-top: 1px;
+  margin-bottom: 0%;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "woods";
+  color: green;
+  font-weight: normal;
+  margin-top: 0%;
+  margin-bottom: 4%;
+}
+body {
+  background-image: url("darkwood.jpg");
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: thick;
+    border-color: yellow;
+
+    display: block;
+}
